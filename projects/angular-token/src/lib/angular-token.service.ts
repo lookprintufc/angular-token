@@ -494,9 +494,9 @@ export class AngularTokenService implements CanActivate {
       this.getAuthDataFromParams();
     }
 
-    // if (this.authData) {
-    //     this.validateToken();
-    // }
+    if (this.authData) {
+        this.validateToken();
+    }
   }
 
   // Parse Auth data from response
